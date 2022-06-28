@@ -1,0 +1,14 @@
+*
+!*/
+!*.*
+!/*
+!makefile
+/temp
+tmp
+out
+a.out
+/openssl
+/.vscode
+build
+.*/
+*.o
