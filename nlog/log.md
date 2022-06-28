@@ -34,11 +34,11 @@ Optimizing compiler (优化编译器)
 程序性能优化的第二部，可以利用处理器提供的指令级并行能力来优化程序，这需要了解运行该程序的机器是如何运作的，需要知道该机器的一些硬件信息(如指令的延迟，吞吐量)。
 <!-- 上面的内容参考了csapp1 -->
 
-### 术语-computer architecture和Microarchitecture
+### computer architecture和Microarchitecture
 
 - Microarchitecture
 
-   也被叫做computer organization(计算机组成)，缩写为µarch 或 uarch
+   也被叫做computer organization(计算机组成)，缩写(abbreviation)为µarch 或 uarch
 
    > In computer engineering, microarchitecture, also called computer organization and sometimes abbreviated as µarch or uarch, is the way a given instruction set architecture (ISA) is implemented in a particular processor.
 
