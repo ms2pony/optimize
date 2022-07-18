@@ -1,15 +1,20 @@
+# 基本
+## /temp，前面加`/`表示仅忽略根目录上的temp
 *
+## 取消忽略所有目录，结尾的`/`表示目录
 !*/
+## 取消忽略有后缀的文件
 !*.*
-!/*
+## 取消忽略makefile文件，因为makefile没有后缀
 !makefile
-/temp
-tmp
-out
+temp*
+tmp*
+out/
 a.out
-/openssl
-/.vscode
-build
-.*/
+build/
+## .*/包括了.vscode/
+.*
 *.o
-external2
+__pycache__/
+external2/
+not_text/
