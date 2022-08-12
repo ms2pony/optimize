@@ -18,3 +18,15 @@ build/
 __pycache__/
 external2/
 not_text/
+!.gitignore
+*.xmind
+*.xlsx
+*.vsdx
+
+# 额外
+perf.data
+## 形如t1.c, ta.c，不包括tad.c
+t?.*
+*.s
+## 文件名以-n结尾的.s文件保留
+!*-n.s
