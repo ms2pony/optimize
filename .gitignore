@@ -16,8 +16,6 @@ build/
 .*
 *.o
 __pycache__/
-external2/
-not_text/
 !.gitignore
 *.xmind
 *.xlsx
